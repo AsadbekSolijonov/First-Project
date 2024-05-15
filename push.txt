@@ -1,0 +1,6 @@
+0. git status
+__________________________________________________________________________
+1. git add <file_name>                 : <file_name> ni git kuzatuviga qo'shish
+2. git status                          : Xolatni tekshirish
+3. git commit -m "comment"             : Ixtiyoriy birorta komentariya
+4. git push -u origin <branch_name>    : gitga qo'shilgan fayllarni githubga joylaydi.
