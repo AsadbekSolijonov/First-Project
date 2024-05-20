@@ -4,3 +4,12 @@ __________________________________________________________________________
 2. git status                          : Xolatni tekshirish
 3. git commit -m "comment"             : Ixtiyoriy birorta komentariya
 4. git push -u origin <branch_name>    : gitga qo'shilgan fayllarni githubga joylaydi.
+
+ORM - SQL
+1. Fruits.objects.all()
+1. SELECT "live_fruits"."id", "live_fruits"."name" FROM "live_fruits WHERE "live_fruits"."id" = 1;"
+1. SELECT id, name FROM fruits WHERE id=1;
+
+2. Fruits.objects.get(id=1) - django ORM
+2. SELECT "live_fruits"."id", "live_fruits"."name" FROM "live_fruits WHERE "live_fruits"."id" = 1;"
+2. SELECT id, name FROM fruits WHERE id=1;  - SQL query
